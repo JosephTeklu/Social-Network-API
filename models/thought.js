@@ -21,7 +21,7 @@ const reactionSchema = new Schema({
 });
 
 const thoughSchema = new Schema({
-  thoughtext: {
+  thoughText: {
     type: String,
     required: "Thought is required",
     minlength: 1,
