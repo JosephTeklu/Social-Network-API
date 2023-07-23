@@ -2,8 +2,6 @@ const router = require("express").Router();
 const { isValidObjectId } = require("mongoose");
 const { User, Thought } = require("../../models");
 
-// delete to remove thought by _id
-
 // /:thoughtId/reactions
 // post create reaction in single thought's reaction array
 // delete reaction by reactionId
